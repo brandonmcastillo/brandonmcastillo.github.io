@@ -1,66 +1,66 @@
-                html,
-                body {
-                    height: 100%;
-                    width: 100%;
-                }
-                
-                body {
-                    background-image: url("landingpage.jpg");
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: stretch;
-                    overflow: hidden;
-                    height: 100%;
-                }
-                
-                header.AA {
-                    text-align: center;
-                    color: white;
-                    font-size: 6em;
-                    font-family: 'Amatic SC', cursive;
-                    width: 50%;
-                    margin: auto;
-                    margin-top: 80px;
-                    border-bottom: white 1px solid;
-                    text-shadow: 2px 2px purple;
-                }
-                
-                header.CC {
-                    color: white;
-                    font-size: 2em;
-                    font-family: 'Amatic SC', cursive;
-                    text-align: center;
-                    margin-top: -50px;
-                }
-                
-                h1.BB {
-                    text-align: center;
-                    font-size: 3em;
-                    margin-top: 50px;
-                    color: white;
-                    font-family: 'Share Tech Mono', sans-serif;
-                    font-style: italic;
-                    position: relative;
-                    text-shadow: 1px 1px 1px purple;
-                }
-                
-                .btn {
-                    border-width: 1px;
-                    border-color: lightblue;
-                    color: white;
-                    overflow-x: scroll;
-                    white-space: nowrap;
-                    margin: 100px 550px;
-                    transition: 2s;
-                    font-family: 'sarpanch', sans-serif;
-                }
-                
-                .btn:hover {
-                    background-color: transparent;
-                    color: white;
-                    border-color: purple;
-                    transform: scale(1.1);
-                    transform-style: preserve-3d;
-                    text-shadow: white;
-                    font-family: 'sarpanch', sans-serif;
-                }
+html,
+body {
+height: 100%;
+width: 100%;
+}
+
+body {
+background-image: url("landingpage.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: stretch;
+overflow: hidden;
+height: 100%;
+}
+
+header.AA {
+text-align: center;
+color: white;
+font-size: 6em;
+font-family: 'Amatic SC', cursive;
+width: 50%;
+margin: auto;
+margin-top: 80px;
+border-bottom: white 1px solid;
+text-shadow: 2px 2px purple;
+}
+
+header.CC {
+color: white;
+font-size: 2em;
+font-family: 'Amatic SC', cursive;
+text-align: center;
+margin-top: -50px;
+}
+
+h1.BB {
+text-align: center;
+font-size: 3em;
+margin-top: 50px;
+color: white;
+font-family: 'Share Tech Mono', sans-serif;
+font-style: italic;
+position: relative;
+text-shadow: 1px 1px 1px purple;
+}
+
+.btn {
+border-width: 1px;
+border-color: lightblue;
+color: white;
+overflow-x: scroll;
+white-space: nowrap;
+margin: 100px 650px;
+transition: 2s;
+font-family: 'sarpanch', sans-serif;
+}
+
+.btn:hover {
+background-color: transparent;
+color: white;
+border-color: purple;
+transform: scale(1.1);
+transform-style: preserve-3d;
+text-shadow: white;
+font-family: 'sarpanch', sans-serif;
+}
